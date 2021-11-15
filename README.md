@@ -31,3 +31,13 @@ Application tree structure: The application is user friendly and built to handle
 
 * Update Employee Role - command line that updates the role/ title of an employee.
 
+## Install
+* npm i - to install all file in order for npm to work
+* npm i inquirer - to use inquirer (to interact with the user via command line)
+* npm init - to create a json file
+* npm i mysql - to connect to MySql database
+* npm console.table - to format tables
+
+## Run 
+* node index.js
+
