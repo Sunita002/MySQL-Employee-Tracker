@@ -41,3 +41,14 @@ Application tree structure: The application is user friendly and built to handle
 ## Run 
 * node index.js
 
+## Dependencies
+![image](https://user-images.githubusercontent.com/87583026/141707299-92e85f10-bae5-4cac-a930-5c053ecd70c7.png)
+
+## Built with
+* JavaScript
+* jQuery
+* ES6+
+* Node.js
+* MySQL2
+* Inquirer
+
