@@ -219,3 +219,25 @@ async function addEmployee() {
     });
 
 }
+function remove(input) {
+    const promptQ = {
+        yes: "yes",
+        no: "no I don't (view all employees on the main option)"
+    };
+    inquirer.prompt([
+        {
+            name: "action",
+            type: "list",
+            message: "In order to proceed an employee, an ID must be entered. View all employees to get" +
+                " the employee ID. Do you know the employee ID?",
+            choices: [promptQ.yes, promptQ.no]
+        }
+    ]).then(answer => {
+        if (input === 'delete' && answer.action === "yes") removeEmployee();
+        else if (input === 'role' && answer.action === "yes") updateRole();
+        else viewAllEmployees();
+
+
+
+    });
+};
