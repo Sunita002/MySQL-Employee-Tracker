@@ -52,3 +52,12 @@ Application tree structure: The application is user friendly and built to handle
 * MySQL2
 * Inquirer
 
+## Demo
+
+![demo](https://user-images.githubusercontent.com/87583026/141710099-5fd8c13f-27a6-46ed-995b-4208b32b424e.PNG)
+
+Do you want to learn more about this program? Please click below for a demo:
+https://watch.screencastify.com/v/RiAzbpKDVj1pWihOQlGm
+
+## Author
+Sunita Persad 
